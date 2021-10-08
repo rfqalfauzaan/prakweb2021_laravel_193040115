@@ -8,7 +8,7 @@
     <title>WPU BLOG | Home</title>
 </head>
 <body>
-    <h1>Halaman Home</h1>
+    <h1>Halaman Homee</h1>
 
     <script>scr="js/script.js"</script>
 </body>
