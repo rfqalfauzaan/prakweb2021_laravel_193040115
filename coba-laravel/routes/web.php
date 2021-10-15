@@ -52,4 +52,4 @@ Route::get('/categoires/{category:slug}', function(Category $category){
     'posts' => $category->posts,
     'category' => $category->name
     ]);
-});_
+});
