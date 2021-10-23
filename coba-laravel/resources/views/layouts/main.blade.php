@@ -8,19 +8,20 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <title>WPU blog | {{ $title }}</title>
+    <title>WPU Blog | {{ $title }} </title>
   </head>
   <body>
-    
-    @include('partials.navbar')
 
+    @include('partials.navbar')
 
     <div class="container mt-4">
         @yield('container')
     </div>
-
     
+
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
+   
   </body>
 </html>
