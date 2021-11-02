@@ -32,9 +32,9 @@
       <h3 class="card-title"><a href="/blog/{{ $posts[0]['slug'] }}" class="text-decoration-none text-dark">{{ $posts[0]->title }}</a></h3>
       <p>
        <small class="text-muted">
-         By.<a href="/blog?author={{ $posts[0]->author->username }}" class="text-decoration-none">
-             {{ $posts[0]->author->name }}
-          </a> 
+         By. <a href="/blog?author={{ $posts[0]->author->username }}" class="text-decoration-none">
+            {{ $posts[0]->author->name }}
+         </a> 
              in 
           <a href="/blog?category={{ $posts[0]->category->slug }}" class="text-decoration-none">
              {{ $posts[0]->category->name }}
