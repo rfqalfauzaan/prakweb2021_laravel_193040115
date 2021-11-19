@@ -7,20 +7,28 @@ namespace App\Models;
 class Post 
 {
    private static $blog_posts = [
-        [
-            "title" =>"Judul Post Pertama",
-            "slug" =>"judul-post-pertama",
-            "author" => "Amisha Al azis",
-            "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero necessitatibus facilis officiis omnis est eius placeat ea pariatur neque? Beatae totam doloribus fugit ipsum facere iste omnis numquam quod!
-            "
+    [
+        "title" =>"Judu Post Pertama" ,
+        "slug" => "judul-post-pertama",
+        "author" => "Rifqi",
+        "body" =>  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia 
+        voluptas dolore iste corrupti suscipit veniam explicabo quis quia quae distinctio, non ex nul
+        la tempora eos ad consequatur cupiditate velit aperiam quos officiis iusto ea, numquam sit. Perferendis
+        aliquam repellat veniam quos at voluptate quam, corrupti minus eius! Sint voluptatum rem quae obcaecati 
+        nesciunt illum quasi quo similique laborum aspernatur architecto quis, cum porro dolorum expedita magnam.
+        Commodi, quasi, maxime animi a ad soluta, mollitia doloribus aliquam sapiente aspernatur quos eum."  
         ],
         [
-            "title" =>"Judul Post Kedua",
-            "slug" =>"judul-post-kedua",
-            "author" => "Park Chanyeol",
-            "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit similique adipisci blanditiis hic provident sapiente accusamus tempora incidunt laborum quaerat soluta recusandae, voluptatum voluptate, asperiores voluptates maiores consectetur aut quidem, vel ab excepturi sequi consequatur ratione. Deleniti maiores possimus, quaerat, repellendus facilis animi omnis sit architecto modi magni dolorum eum quos officia perferendis! Neque alias odio repellendus, maiores omnis aut minus nostrum accusantium sunt perspiciatis sapiente nam totam accusamus necessitatibus eaque similique sint, quod eos quia? Quae perferendis animi molestiae obcaecati optio velit excepturi esse minima, recusandae expedita fugiat tenetur dolorum ea consequatur laudantium sed sunt maxime, omnis quod corrupti! A odio, eligendi voluptatum consequatur vel obcaecati! Neque tenetur minima similique sunt accusantium voluptate optio, sed temporibus debitis. Molestiae libero perferendis voluptates non temporibus? Sit deleniti optio asperiores, quibusdam soluta, maxime dolorum possimus modi minima vero, commodi nulla. Itaque neque cupiditate officiis minima quod odio perspiciatis dolores mollitia. Dolore suscipit nobis nisi fugit aperiam nihil sint sed dolorum est eaque sunt explicabo reprehenderit deserunt saepe unde, corporis reiciendis beatae aut similique repellat praesentium quibusdam. Doloremque fugiat quae fuga, sapiente vero accusantium, laboriosam officia eveniet voluptatem rem natus velit quia beatae? Vel dolorem culpa consectetur? Quia quae quo voluptatibus laborum voluptas!"
-        ]
-        
+            "title" =>"Judul Post Kedua" ,
+            "slug" => "judul-post-kedua",
+            "author" => "Alfa",
+            "body" =>  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia 
+            voluptas dolore iste corrupti suscipit veniam explicabo quis quia quae distinctio, non ex nul
+            la tempora eos ad consequatur cupiditate velit aperiam quos officiis iusto ea, numquam sit. Perferendis
+            aliquam repellat veniam quos at voluptate quam, corrupti minus eius! Sint voluptatum rem quae obcaecati 
+            ."  
+            ]
+    
         ];
 
         public static function all() 
