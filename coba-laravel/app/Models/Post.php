@@ -8,7 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 
 class Post extends Model
 {
-    use HasFactory,Sluggable;
+    use HasFactory, Sluggable;
 
     // protected $fillable = ['title', 'excerpt', 'body'];
     protected $guarded = ['id'];
@@ -47,6 +47,7 @@ class Post extends Model
     {
         return 'slug';
     }
+
     public function sluggable(): array
     {
         return [
